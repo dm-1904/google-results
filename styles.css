@@ -108,3 +108,34 @@ hr {
   border-color: rgb(99, 99, 99);
   margin-top: 0px;
 }
+
+.results-number span {
+  color: #a6a6a6;
+}
+
+.result, .people-ask {
+  color: rgb(221, 221, 221);
+}
+
+.people-ask {
+  display: grid;
+  outline: 1px solid rgb(221, 221, 221);
+  width: 50%;
+  border-radius: 8px;
+}
+
+
+.people-header {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.bottom-result, .people-options {
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+.container .people-ask .people-options, .people-header {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
